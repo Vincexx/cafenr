@@ -52,7 +52,10 @@ header {
 
 #showcase .areas {
     text-align: center;
-    margin-top: 80px;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #showcase .areas .btn {
@@ -76,7 +79,10 @@ header {
 }
 
 #showcase .banner {
-    margin-top: 75px;
+    margin-top: 50px;
+    height: 20vh;
+    display: grid;
+    align-items: stretch;
 }
 
 #showcase .banner .banner-tenets h5{
@@ -106,7 +112,8 @@ header {
 }
 
 #vmgo {
-    background: rgb(248, 242, 242);
+    background: rgb(243, 243, 243);
+    height: 70vh;
 }
 
 #vmgo .vmgo-title {
@@ -121,9 +128,8 @@ header {
 
 #vmgo .vmgo-content {
     display: flex;
-    margin-bottom: 100px;
     justify-content: center;
-
+   
 }
 
 #vmgo .vmgo-content .box {
@@ -135,6 +141,11 @@ header {
     width: 300px;
     height: 350px;
     
+}
+
+#vmgo .vmgo-content .box .highlight {
+    font-weight: bold;
+    color: rgb(12, 175, 12);
 }
 
 #vmgo .vmgo-content .box h5 {
