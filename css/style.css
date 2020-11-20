@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.landing-page {
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 0.2 solid rgb(184, 184, 184);
+}
+
+header {
+    background: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header .logo img {
+    width: 60px;
+}
+
+.header .nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header .nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header .nav ul li a {
+    color: rgb(90, 88, 88);
+}
+
+.header .nav ul li a .fa {
+    color: rgb(12, 175, 12);
+}
+
+#showcase .areas {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#showcase .areas .btn {
+    padding: 0;
+    background: rgb(12, 175, 12);
+    color: white;
+    width: 250px;
+    height: 70px;
+    transition: .3s ease-in-out;
+    border: solid 2px gold;
+    -webkit-box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    
+}
+
+
+#showcase .areas .btn:hover {
+    background: gold;
+    color: black;
+}
+
+#showcase .banner {
+    margin-top: 75px;
+}
+
+#showcase .banner .banner-tenets h5{
+    padding: 0;
+    display: inline;
+    padding: 0 15px;
+    border-right: 0.5px solid rgb(129, 129, 129);
+  
+}
+
+#showcase .banner .banner-name h1{
+   font-weight: bold;
+   font-size: 60px;
+   margin: 0;
+   color: rgb(12, 175, 12);
+}
+
+.banner-college h3{
+    background: rgb(12, 175, 12);
+    position: absolute;
+    color: white;
+    padding: 10px 15px;
+    border: solid 2px gold;
+    -webkit-box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+}
+
+#vmgo {
+    background: rgb(248, 242, 242);
+}
+
+#vmgo .vmgo-title {
+    text-align: center;
+}
+
+#vmgo .vmgo-title h3{
+    margin: 0;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+#vmgo .vmgo-content {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+
+}
+
+#vmgo .vmgo-content .box {
+    -webkit-box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 34px -5px rgba(0,0,0,0.75);
+    margin-right: 20px;
+    padding: 25px;
+    width: 300px;
+    height: 350px;
+    
+}
+
+#vmgo .vmgo-content .box h5 {
+    font-weight: bold;
+    color: rgb(12, 175, 12);
+}
+
+#vmgo .vmgo-content .box p {
+    color: rgb(70, 68, 68);
+}
+
+footer {
+    text-align: center;
+    background: rgb(42, 35, 35);
+    color: white;
+    padding:  30px 0;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    color: rgb(190, 190, 190);
+}
